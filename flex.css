@@ -232,5 +232,46 @@ padding: auto;
     
     font-size: small;
 }
-
+footer {
+    background-color: #5314e6;
+    color: #49d1e3;
+    padding: 50px 0;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  h3 {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+  }
+  
+  .social-media {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .social-media li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .social-media li a {
+    color: #1a81b0;
+    font-size: 24px;
+  }
+  
+  .social-media li a:hover {
+    color: #1a81b0;
+  }
+  
 
