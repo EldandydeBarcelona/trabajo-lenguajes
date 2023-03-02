@@ -9,12 +9,19 @@
 
 
 .derecha {
-   @media screen {
-    
-   }
+padding-right: min(500px);
 }
 
 .izquierda {
-    
-    
+    padding-left: min(500px);
+}
+.imagen1{
+height: auto;
+width: fit-content;
+padding: auto;
+}
+.imagen2{
+height: auto;
+width: fit-content;
+padding: auto;
 }
