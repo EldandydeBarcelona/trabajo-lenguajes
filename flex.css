@@ -1,4 +1,15 @@
-
+@media only screen and (orientation: landscape) and (max-width: 800px) {
+    body {
+    background-color: rgb(77, 196, 236);
+    align-items: center;
+    }
+    }
+    @media only screen and (orientation: landscape) and (max-width: 390px) {
+        body {
+        background-color: rgb(62, 172, 208);
+        align-items: center;
+        }
+        }
 #Menu {
     display: flex;
     justify-content: space-between;
@@ -240,6 +251,7 @@ footer {
   
   .container {
     max-width: 1200px;
+    display:flex;
     margin: 0 auto;
   }
   
