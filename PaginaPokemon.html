@@ -7,23 +7,26 @@
     <title> Página </title>
 </head>
 <body>
-    <div id="background">
+    
     <div id="Menu"> 
-        <nav class="navbar">
-            <img class="Logo" src="./img/Logo (2).png" alt="">
-            <div class="nav-links">
-                <ul>
-                    <li><a href="#">Características</a></li>
-                    <li><a href="#">Precio</a></li>
-                    <li><a href="Contacto.html">Contacto</a></li>
-                    <li><a href="#">Ayuda</a></li>
-                </ul>
-            </div>
-            <div class="in">
-                <button href=""> Login </button>
-                <button href=""> Registro </button>
-            </div>
-        </nav>
+        <div class="izquierda">
+            <img id="logo" src="./img/Logo (2).png" alt="un logo de cosas de inteligencia artificial que está muy de moda">
+            <a class="tablet-hidden" href="">Inicio</a>
+            <a class="tablet-hidden" href="">Características</a>
+            <a class="tablet-hidden" href="">Ventajas</a>
+            <a class="tablet-hidden" href="">Otra cosa más</a>
+        </div>
+        <div class="derecha">
+            <a class="tablet-hidden" href="">Login</a>
+            <a class="tablet-hidden" href="">Registro</a>
+        </div>
+
+        <a href="" class="burger">
+            <img src="./img/burger.png" alt="burger menu button">
+        </a>
+
+    </div>
+    
     </div>
     <div class="Hero">  </div>
     <div class="caracteristicas"> 
@@ -32,15 +35,22 @@
         </div>
         <div> 
             <h3> Diseños únicos </h3>
-            <p> En esta página podra encontrar a tus Pokemon favoritos de la infancia
+            <p> 
+                En esta página podra encontrar a tus Pokemon favoritos de la infancia
                 en formato carta TCG como nunca las habías visto. Podras encontrar a 
                 tus Pokemons favoritos como Charmander o Pikachu!!!
             </p>
-            <button> Más info </button>
+            
         </div>
         <div>
-            <h3> Historia de los Pokemons</h3>
-            <p></p>
+            <h3> Historia de Pokemon</h3>
+            <p> 
+                La historia de Pokémon (abreviatura de Pocket Monsters) comienza en Japón, país en el que un amante de los videojuegos llamado Satoshi Tajiri,
+                con apenas 25 años tuvo la idea de diseñar un sistema en el que varios jugadores pudieran interactuar en un mundo compartido. Era una idea ambiciosa
+                para 1990, pero fue el germen de lo que años más tarde se convertiría en un suceso a nivel mundial. Tajiri tuvo la suerte de trabajar bajo la dirección
+                del mítico Shigeru Miyamoto (padre de Mario Bros) en varios videojuegos y luego de años de elaborar la idea, presentó en febrero de 1996 su primer Pokémon
+                para la consola portátil Game Boy. Dos versiones salieron al mercado, Pokémon: "Red" y "Green", y luego, se sumaría el "Blue". 
+            </p>
             <button> Más info </button>
         </div>
         <div>
@@ -57,79 +67,6 @@
     <div class="">  </div>
     <div class="ventajas">  </div>
     <div class="">  </div>
-    <div id="Cartas">
-     <h1> Cartas Pokemon </h1>
-      <div id="Pokemon1">
-        <div id="cabezera">
-            <span class="nombre"> Squirtle </span>
-            <h2 class="hp"> 50hp💧 </h2>
-        </div>
-        <div id="imagen">
-            <img style="z-index: -1 " src="./img/pokemon-background.png" alt="error " width="300" height="300" top="50px" left="50px"class="fondo">
-            <img style="z-index: 1 " src="./img/squirtle.png" alt="error" width="300" height="300" top="50px" left="50px" class="squirtle">
-        </div>
-         <div id="habilidades">
-             <h2> Habilidades </h2>
-            <ul>
-                <li> Torrente </li>
-                <li> Cura llovizna </li>
-             </ul>
-    
-        </div>
-       </div>
-       <div id="Pokemon2">
-        <div id="cabezera">
-            <span class="nombre"> Pikachu </span>
-            <h2 class="hp2"> 60hp⚡ </h2>
-        </div>
-        <div id="imagen2">
-            <img style="z-index: -2 " src="./img/pokemon-background.png" alt="error " width="300" height="300" top="50px" left="50px"class="fondo2">
-            <img style="z-index: 2 " src="./img/pikachu.png" alt="error" width="300" height="300" top="50px" left="50px" class="pikachu">
-        </div>
-         <div id="habilidades2">
-             <h2> Habilidades </h2>
-            <ul>
-                <li> Electricidad Estatica</li>
-                <li> Pararrayos </li>
-             </ul>
-        </div>
-       </div>
-       <div id="Pokemon3">
-        <div id="cabezera">
-            <span class="nombre"> Charmander</span>
-            <h2 class="hp3"> 70hp🔥</h2>
-        </div>
-        <div id="imagen3">
-            <img style="z-index: -3 " src="./img/pokemon-background.png" alt="error " width="300" height="300" top="50px" left="50px"class="fondo3">
-            <img style="z-index: 3 " src="./img/charmander.png" alt="error" width="300" height="300" top="50px" left="50px" class="charmander">
-        </div>
-         <div id="habilidades3">
-             <h2> Habilidades </h2>
-            <ul>
-                <li> Mar  Llamas </li>
-                <li> Cuerpo Duro </li>
-             </ul>
-        </div>
-       </div>
-       <div id="Pokemon4">
-        <div id="cabezera4">
-            <span class="nombre"> Bulbasaur </span>
-            <h2 class="hp4"> 50hp </h2>
-        </div>
-        <div id="imagen4">
-            <img style="z-index: -4 " src="./img/pokemon-background.png" alt="error " width="300" height="300" top="50px" left="50px"class="fondo4">
-            <img style="z-index: 4 " src="./img/bulbasaur.png" alt="error" width="300" height="300" top="50px" left="50px" class="bulbasaur">
-        </div>
-         <div id="habilidades4">
-             <h2> Habilidades </h2>
-            <ul>
-                <li> Espesura </li>
-                <li> Clorofila </li>
-             </ul>
-         </div>
-       </div>
-    </div>
-    </div>
     <div class="CTA">  </div>
     <div class="Footer">
         <div class="container">

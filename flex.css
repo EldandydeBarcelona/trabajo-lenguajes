@@ -1,289 +1,58 @@
-@media only screen and (orientation: landscape) and (max-width: 800px) {
-    body {
-    background-color: rgb(77, 196, 236);
-    align-items: center;
-    }
-    }
-    @media only screen and (orientation: landscape) and (max-width: 390px) {
-        body {
-        background-color: rgb(62, 172, 208);
-        align-items: center;
-        }
-        }
-#Menu {
-    display: flex;
-    justify-content: space-between;
-}
 
-.Logo {
-    width: 80px;
-    padding-right: 70px;
-    padding-bottom: 70px;
-    height: auto;
-
-    
-}
-*{
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
-    list-style: none;
-}
-body {
-    font-family: Arial, Helvetica, sans-serif;
-}
-header {
-    height: 100vh;
-    width: 100vw;
-}
-.navbar{
-    padding: 50px;
-    display: flex;
-    width: 100%;
+* {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+#logo {
+    width: 64px;
+}
+
+.menu {
+    display: flex;
     justify-content: space-between;
+    background-color: aqua;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    padding: 12px;
 }
-.navbar a{
-    color: black;
+
+.izquierda {
+    display: flex;
+    align-items: center;
+    gap: 24px
 }
-.navbar .logo{
-    font-size: 2em;
-    font-weight: bold;
+
+.derecha {
+    display: flex;
+    align-items: center;
+    gap: 24px
 }
-.navbar .nav-links {
+
+.burger {
+    padding: 12px;
+    border: 1px solid #1A1A1A;
+    border-radius: 4px;
     display: flex;
 }
 
-.navbar .nav-links ul {
-    display:flex;
-}
-.navbar .nav-links ul li {
-    margin: 0 25px;
-}
-.navbar .nav-links ul li.active a {
-    color: blue;
-    font-weight: 600;
+.burger img {
+    width: 24px;
 }
 
-
-
-
-.imagen1{
-height: auto;
-width: fit-content;
-padding: auto;
-}
-.imagen2{
-height: auto;
-width: fit-content;
-padding: auto;
-}
-#Pokemon1 {
-    background-color: rgba(26, 215, 215, 0.91);
-    width: 5px;
-    padding-right: 250px;
-    margin-left: 5px;
-    z-index: -300;
-    float: left;
-    border-radius: 10px;
-    border: 10px solid rgb(147, 200, 253);
-}
-#Pokemon2 {
-    background-color: yellow;
-    width: 5px;
-    height: 470px;
-    padding-right: 250px;
-    margin-left: 5px;
-    z-index: -300;
-    float: left;
-    border-radius: 10px;
-    border: 10px solid rgb(248, 222, 79)
-}
-#Pokemon3 {
-    background-color: orangered;
-    width:5px;
-    height:470px;
-    padding-right: 250px;
-    margin-left: 5px;
-    z-index: -300;
-    float: left;
-    border-radius: 10px;
-    border: 10px solid rgb(120, 24, 24);
-
-}
-#Pokemon4 {
-    background-color: green;
-    width:5px;
-    height:470px;
-    padding-right: 250px;
-    margin-left: 5px;
-    z-index: -300;
-    float: left;
-    border-radius: 10px;
-    border: 10px solid  rgb(37, 90, 37);
-}
-
-#cabezera {
-    font-size: large;
-}
-
-.nombre {
-    padding-left: 30px;
-    font-size: 20px;
-}
-.hp {
-   padding-left: 200px;
-   font-size: medium;
-   width: 100px;
-   right: 50px;
-  
-}
-.hp2 {
-    padding-left: 200px;
-    font-size: medium;
-    width: 100px;
-    right: 50px; 
-}
-.hp3 {
-   padding-left: 200px;
-   padding-right: 100px;
-   font-size: medium;
-   width: 100px;
-   right: 60px;
-}
-.hp4 {
-   padding-left: 200px;
-   padding-right: 100px;
-   font-size: medium;
-   width: 100px;
-   right: 70px;
-}
-#imagen {
-    padding-left: 10px;
-}
-#imagen2 {
-    padding-left: 10px;
-}
-#imagen3 {
-    padding-left: 10px;
-}
-#imagen4 {
-    padding-left: 10px;
-}
-.squirtle {
-    position: absolute;
-    top: 220px;
-    left:20px;
-    z-index: 300;
-}
-.pikachu {
-    position: absolute;
-    top: 220px;
-    left:300px;
-    z-index: 300;
-}
-.charmander {
-    position: absolute;
-    top: 220px;
-    left:550px;
-    z-index: 300;
-}
-.bulbasaur {
-    position: absolute;
-    top: 220px;
-    left: 850px;
-    z-index: 300;
-}  
-.fondo {
-    top: 60px;
-    width: 230px;
-    z-index: -300;
-}
-.fondo2 {
-    top: 60px;
-    width: 230px;
-    z-index: -300; 
-}
-.fondo3 {
-    top: 60px;
-    width: 230px;
-    z-index: -300;
-}    
-.fondo4 {
-    top: 60px;
-    width: 230px;
-    z-index: -300;
-}
-
-#habilidades {
-    padding-right: 30px;
-    padding-left: 40px;
-    width: 200px;
+.container {
     
-    font-size: small;
-}
-#habilidades2 {
-    padding-right: 30px;
-    padding-left: 40px;
-    width: 200px;
-    
-    font-size: small;
-}
-#habilidades3 {
-    padding-right: 30px;
-    padding-left: 40px;
-    width: 200px;
-    
-    font-size: small;
-}
-#habilidades4 {
-    padding-right: 30px;
-    padding-left: 40px;
-    width: 200px;
-    
-    font-size: small;
-}
-footer {
-    background-color: #5314e6;
-    color: #49d1e3;
-    padding: 50px 0;
-  }
-  
-  .container {
-    max-width: 1200px;
-    display:flex;
-    margin: 0 auto;
-  }
-  
-  h3 {
-    font-size: 20px;
-    margin-bottom: 20px;
-  }
-  
-  p {
-    font-size: 14px;
-    line-height: 1.5;
-    margin-bottom: 10px;
-  }
-  
-  .social-media {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-  }
-  
-  .social-media li {
-    display: inline-block;
-    margin-right: 10px;
-  }
-  
-  .social-media li a {
-    color: #1a81b0;
-    font-size: 24px;
-  }
-  
-  .social-media li a:hover {
-    color: #1a81b0;
-  }
-  
+    margin: auto;
+    padding: 24px;
+    background-color: rgb(172, 172, 172);
+    margin-top: 12px;
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 
+}
