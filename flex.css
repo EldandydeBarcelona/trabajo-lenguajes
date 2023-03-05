@@ -15,7 +15,7 @@
 .menu {
     display: flex;
     justify-content: space-between;
-    background-color: aqua;
+    background-color: rgb(226, 252, 252);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
     padding: 12px;
 }
@@ -60,8 +60,13 @@
     border:solid black;
 }
 .imagenes{
-    padding: fit-content;
     width: 200px;
-    display:flex;
+    display: flex;
     height: 200px;
+    justify-content: space-between;
+    background-color: beige;
+}
+.hero{
+    background-color: beige;
+    border:solid black;
 }
