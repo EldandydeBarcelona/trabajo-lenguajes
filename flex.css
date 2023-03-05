@@ -57,25 +57,11 @@
 
 }
 .tabla{
-    border: 2cm;
+    border:solid black;
 }
-.imagen1{
-    padding: ;
-    height: ;
-    width: ;
-}
-.imagen2{
-    padding: ;
-    height: ;
-    width: ;
-}
-.imagen3{
-    padding: ;
-    height: ;
-    width: ;
-}
-.imagen4{
-    padding: ;
-    height: ;
-    width: ;
+.imagenes{
+    padding: fit-content;
+    width: 200px;
+    display:flex;
+    height: 200px;
 }
