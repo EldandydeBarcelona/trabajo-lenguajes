@@ -16,7 +16,7 @@
 .menu {
     display: flex;
     justify-content: space-between;
-    background-color: rgb(226, 252, 252);
+    background-color: rgb(156, 239, 239);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
     padding: 12px;
 }
@@ -35,7 +35,7 @@
 
 .burger {
     padding: 12px;
-    border: 1px solid #1A1A1A;
+    border: 1px solid #bba6a6;
     border-radius: 4px;
     display: flex;
 }
@@ -64,10 +64,12 @@
     width: 200px;
     display: flex;
     height: 200px;
-    justify-content: space-between;
+    padding: 25px;
     background-color: beige;
 }
 .hero{
     background-color: beige;
     border:solid black;
+    padding: 50px;
+    display: grid;
 }
