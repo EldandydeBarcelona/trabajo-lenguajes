@@ -1,0 +1,80 @@
+*{
+    box-sizing:border-box;
+    font-family: sans-serif;
+    transition:all .5s ease-in-out;
+}
+
+.carta{
+    width: 270px;
+    padding: 15px;
+    float:left;
+    border: 8px;
+    border-color: rgb(209, 209, 3);
+    border-style: solid;
+    border-radius: 2%;
+    height: auto;
+    margin: 10px;
+    box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.396), 0 6px 20px 0 rgba(0, 0, 0, 0.374);
+}
+
+.cabezera{
+    width: 100%;
+    padding: 0%;
+}
+
+.anchoMax{
+    width: 100%;
+    display: inline-block;
+    padding-top: 70px;
+}
+
+.ancho50der{
+    width: 49%;
+    float:right;
+    text-align: right;
+}
+
+.ancho50izq{
+    width: 49%;
+    float:left;
+}
+
+.fuego{
+    background: radial-gradient(rgb(255, 132, 132), rgb(255, 18, 18))
+}
+
+.agua{
+    background: radial-gradient(rgb(166, 166, 255),rgb(56, 56, 255))
+}
+
+.planta{
+    background: radial-gradient(rgb(122, 255, 122),rgb(21, 132, 21))
+}
+
+.electrico{
+    background: radial-gradient(rgb(255, 255, 131), rgb(209, 172, 22))
+}
+
+.imagenfondo{
+    width: 100%;
+    background-image:url(/img/pokemon-background.png);
+    background-size: cover;
+    max-height: 170px;
+    padding: 0%;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.habilidades{
+    width: 100%;
+    padding-bottom: 45px;
+    padding-top: 0%;
+    display: inline-block;
+}
+
+body{
+    background-image: url(/img/fazqcs1tmwwte1ap.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
